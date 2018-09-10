@@ -1,3 +1,6 @@
 [submodule "src/roboclaw"]
 	path = src/roboclaw
 	url = https://github.com/Vince-vd/roboclaw
+[submodule "src/mr_messages"]
+	path = src/mr_messages
+	url = https://github.com/Vince-vd/mr_messages
