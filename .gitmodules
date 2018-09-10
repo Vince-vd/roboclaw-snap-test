@@ -1,0 +1,3 @@
+[submodule "src/roboclaw"]
+	path = src/roboclaw
+	url = https://github.com/Vince-vd/roboclaw
