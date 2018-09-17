@@ -23,3 +23,11 @@ apps:
     rudder-ctrl:
         command: roslaunch roboclaw rudder.launch
         plugs: [network, network-bind]
+
+    rudder-fwd:
+        command: rostopic pub /rudder/control_effort std_msgs/Float64 120
+        plugs: [network, network-bind]
+
+    rudder-stop:
+        command: rostopic pub /rudder/control_effort std_msgs/Float64 0
+        plugs: [network, network-bind]
